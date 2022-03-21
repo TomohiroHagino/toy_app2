@@ -10,7 +10,7 @@ module ToyApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.hosts << "35.78.41.155"
+    config.hosts << "*"
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
